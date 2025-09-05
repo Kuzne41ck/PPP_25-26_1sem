@@ -1,3 +1,4 @@
+#задание 2
 import random
 students = int(input('Введите количество учеников '))
 subjects = int(input('Введите количество предметов '))
