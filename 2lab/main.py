@@ -1,3 +1,4 @@
+#Задание №1
 import string
 stroka = "aCaaCAcAbcbBCBB"
 print(stroka)
