@@ -1,5 +1,6 @@
-#Задание 2
+# Задание 2
 journal = []
+
 
 def evaluate(expr, deystviye=0):
     global journal
@@ -50,17 +51,18 @@ def evaluate(expr, deystviye=0):
                 f"Действие {deystviye}: Результат {expr[:i].strip()} {char} {expr[i + 1 :].strip()} = {result}"
             )
             return result
-        
+
     result = int(expr)
     journal.append(f"Действие {deystviye}: {expr} это число, результат: {result}")
     return result
 
+
 journal.clear()
 expression = "(2 + (3 * (4 - 1)))"
 final_result = evaluate(expression)
-print('Пример:', expression)
-print('-'*40)
+print("Пример:", expression)
+print("-" * 40)
 for i in journal:
     print(i)
-print('-'*40)
-print('Ответ:', final_result)
+print("-" * 40)
+print("Ответ:", final_result)
