@@ -1,3 +1,4 @@
+#вариант 1
 import math
 
 class figura():
